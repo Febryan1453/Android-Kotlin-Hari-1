@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_samping"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Samping"/>
+
+    <Button
+        android:id="@+id/btn_bawah"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Bawah"/>
+
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_below="@id/btn_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Dua"/>
+
+    <Button
+        android:id="@+id/btn_satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tombol Satu"/>
+
+    <Button
+        android:id="@+id/btn_center"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="Tombol Center"/>
+
+
+
+</RelativeLayout>
+
+<!-- id : untuk penempatan widget yang satu dengan lainnya -->
